@@ -1,0 +1,29 @@
+.container {
+  display: grid;
+  max-width: 500px;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  justify-content: center;
+}
+
+#main-heading {
+  text-align: center;
+}
+
+ul {
+  display: grid;
+  justify-content: center;
+  margin-right: 30px;
+}
+
+ul li {
+  list-style-type: none;
+  text-align: center;
+  border: 1px solid black;
+  padding: 5px 100px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
