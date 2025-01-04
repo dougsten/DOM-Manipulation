@@ -1,29 +1,33 @@
 .container {
-  display: grid;
-  max-width: 500px;
+  display: flex;
+  min-width: 735px;
   margin: auto;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   border-radius: 10px;
   padding-bottom: 20px;
   justify-content: center;
 }
 
-#main-heading {
-  text-align: center;
-}
-
-ul {
+.boxes {
   display: grid;
   justify-content: center;
-  margin-right: 30px;
+  align-items: center;
+  border: 2px solid black;
+  margin: 5px;
+  padding: 40px;
+  border-radius: 10px;
 }
 
-ul li {
-  list-style-type: none;
-  text-align: center;
-  border: 1px solid black;
-  padding: 5px 100px;
-  font-size: 1.2rem;
-  font-weight: 600;
+.boxes button {
+  margin-bottom: 25px; 
 }
 
+.boxes h1 {
+  margin-bottom: 50px;
+}
+
+button {
+  margin-top: 30px;
+  border-radius: 10px;
+  padding: 10px;
+}
